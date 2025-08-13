@@ -57,19 +57,33 @@ html{
     margin: 0;
     padding: 0;
     text-align: center;
+    color:var(--font-color-heading);
   }
 
 /* Headings decleration*/
 
 h1, h2, h3, h4{
     font-family:var(--font-heading);
+    line-height: 88%;
+    color:var(--font-color-heading);
+    margin: 0;
+    text-transform: uppercase;
 }
 
 h1{
     font-size: 3.2rem;
-    line-height: 88%;
-    color:var(--font-color-heading);
-    margin: 0;
+}
+
+h2{
+    font-size: 2.4rem;
+
+}
+
+h3{
+font-size: 1.8rem;
+font-family: var(--font-text-bold);
+color:var(--btn-bg-hover);
+padding: 2.5rem;
 }
 p{
     font-family: var(--font-text);
@@ -116,7 +130,7 @@ header{
 }
 .btn{
     display: flex;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-family: var(--font-text);
     margin: 0 auto;
@@ -126,9 +140,19 @@ header{
     border:none;
     background-color: var(--btn-bg);
     padding: 1rem 2rem;
+    color:var(--font-color-heading)
 }
 
 .arrow{
     width:30px;
     display: block;
+}
+
+/* work flow section*/
+
+.workflow{
+    background-color: var(--bg-color);
+}
+.workflow-container{
+    padding: 2.5rem;
 }

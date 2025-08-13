@@ -1,0 +1,91 @@
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+    // border: 1px solid red;
+    
+   
+}
+:root{
+    --background-primary: linear-gradient(to right,#01EDE3, #FBE765);
+    --bg-color: #F2F2F2;
+    --btn-bg-hover:#E71D36;
+    --btn-bg:#FFD803;
+    --font-body-color:#4A4747;
+    --font-color-heading: #0E4D5C;
+    --font-heading:"MyFont-chunkfive", sans-serif;
+    --font-text-bold:"MyFont-new-montserrat-bold", sans-serif;
+    --font-text:"MyFont-new-montserrat", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+/* Typography section */
+
+
+/* Regular weight */
+@font-face {
+    font-family: "MyFont-chunkfive";
+    src: url("fonts/chunkfive-regular-webfont.woff2") format("woff2"),
+         url("fonts/chunkfive-regular-webfont.woff")  format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;      /* prevents invisible text flash */
+  }
+
+  @font-face {
+    font-family: "MyFont-new-montserrat";
+    src: url("fonts/neuemontreal-regular-webfont.woff2") format("woff2"),
+         url("fonts/neuemontreal-regular-webfont.woff")  format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  /* Bold weight */
+  @font-face {
+    font-family: "MyFont-new-montserrat-bold";
+    src: url("fonts/neuemontreal-bold-webfont.woff2") format("woff2"),
+         url("fonts/neuemontreal-bold-webfont.woff")  format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+/* Headings decleration*/
+
+h1, h2, h3, h4{
+    font-family:var(--font-heading);
+}
+.navlinks{
+    display: none;
+}
+.menu{
+    width:30px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+img{
+    width:100%;
+    height:100%;
+    display: block;
+}
+.logo{
+    width:150px;
+}
+
+header{
+    background: var(--background-primary);
+}

@@ -140,7 +140,8 @@ header{
     border:none;
     background-color: var(--btn-bg);
     padding: 1rem 2rem;
-    color:var(--font-color-heading)
+    color:var(--font-color-heading);
+    border-radius: 4px;
 }
 
 .arrow{
@@ -155,4 +156,36 @@ header{
 }
 .workflow-container{
     padding: 2.5rem;
+}
+
+.cards{
+    padding: 2.5rem;
+    
+}
+.card{
+    display: flex;
+    margin-bottom: 3rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+.card-image{
+   padding: 2rem;
+    background: var(--btn-bg);
+    border-radius: 20px 0 0 20px;
+} 
+
+.card-img{
+    width:110px;
+}
+.card-content{
+    text-align: left;
+    padding: 2.5rem;
+  
+}
+.card-text{
+    margin: 0;
+    line-height: 1;
 }

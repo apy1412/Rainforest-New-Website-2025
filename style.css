@@ -199,7 +199,7 @@ h4{
 /* About Us section*/
 
 .about-us{
-    padding: 2.5rem 2.5rem 0 ;
+    padding: 3.5rem 2.5rem 0 ;
 }
 .aboutUs-image{
     position:relative;
@@ -222,7 +222,7 @@ h4{
     background-color: var(--btn-bg);
 }
 .client-container{
-padding: 2.5rem;
+padding: 3.5rem 2.5rem;
 
 }
 
@@ -244,11 +244,54 @@ padding: 2.5rem;
     width:215px;
 }
 .tilahn{
-    width:215px;
+    width:115px;
 }
 .gatsby{
     width:94px;
 }
 .gllit{
     width:154px;
+}
+
+/* services  section*/
+.services{
+    padding: 3.5rem 2.5rem;
+}
+.service-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-card p{
+    text-transform: uppercase;
+    font-family: var(--font-text-bold);
+    font-size: 2rem;
+}
+
+/* contact US  section*/
+.contact-us{
+    padding: 2.5rem;
+    background-color: var(--bg-color);
+}
+.contact-us p{
+    font-size: 4rem;
+    font-family: var(--font-heading);
+    color:var(--font-color-heading);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+/* footer  section*/
+
+footer{
+    background: var(--background-primary);
+}
+
+.footer-container{
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    align-items: center;
+}
+
+.social-links img{
+    width:49px;
 }

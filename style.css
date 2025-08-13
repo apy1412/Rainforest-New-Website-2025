@@ -165,7 +165,6 @@ header{
 .card{
     display: flex;
     margin-bottom: 3rem;
-    background-color: white;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
@@ -182,10 +181,74 @@ header{
 }
 .card-content{
     text-align: left;
-    padding: 2.5rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    height:150px;
   
 }
 .card-text{
     margin: 0;
-    line-height: 1;
+    line-height: 1.1;
+}
+
+h4{
+    padding-bottom: 1.5rem;
+}
+
+/* About Us section*/
+
+.about-us{
+    padding: 2.5rem 2.5rem 0 ;
+}
+.aboutUs-image{
+    position:relative;
+}
+.brand-name{
+    font-size: 4.5rem;
+    font-family: var(--font-heading);
+    background: var(--background-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    position:absolute;
+    top:-5px;
+    z-index:-1;
+    text-align: center;
+}
+
+.clients{
+    background-color: var(--btn-bg);
+}
+.client-container{
+padding: 2.5rem;
+
+}
+
+.client-list{
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.ea{
+    width:286px;
+}
+.tb{
+    width:157px;
+}
+.sketchers{
+    width:215px;
+}
+.tilahn{
+    width:215px;
+}
+.gatsby{
+    width:94px;
+}
+.gllit{
+    width:154px;
 }

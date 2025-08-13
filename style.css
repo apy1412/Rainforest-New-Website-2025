@@ -64,6 +64,18 @@ html{
 h1, h2, h3, h4{
     font-family:var(--font-heading);
 }
+
+h1{
+    font-size: 3.2rem;
+    line-height: 88%;
+    color:var(--font-color-heading);
+    margin: 0;
+}
+p{
+    font-family: var(--font-text);
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
 .navlinks{
     display: none;
 }
@@ -88,4 +100,35 @@ img{
 
 header{
     background: var(--background-primary);
+}
+
+/* main section*/
+
+.red{
+    color:var(--btn-bg-hover);
+}
+
+.hero-content{
+    padding: 2.5rem;
+}
+.bold{
+    font-family: var(--font-text-bold);
+}
+.btn{
+    display: flex;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: var(--font-text);
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    gap:3rem;
+    border:none;
+    background-color: var(--btn-bg);
+    padding: 1rem 2rem;
+}
+
+.arrow{
+    width:30px;
+    display: block;
 }
